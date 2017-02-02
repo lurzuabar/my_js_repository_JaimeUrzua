@@ -4,7 +4,7 @@ var text2 = "Estoy creando otro nuevo JS";
 var text3 = "Funciones aritmeticas y logicas";
 var text4 = "Comparaciones aritmeticas y logicas";
 var text5 = "Hay que darle.. Con todo!!";;
-console.log("------ Ejercicio 1 ------");
+console.log("------ Ejercicio 1 y 4 ------");
 if (text1.length < 30) 
 	console.log("Del Texto: "+text1+", comparando el tamaño de texto es menor a 30, obtuvimos que: La Sentencia es Verdadera");
 if (text2.length > 10)
@@ -35,6 +35,7 @@ console.log(text5.substring(5,7));
 
 
  // Exercise3
+ console.log("------ Ejercicio 3 ------");
  var array1 = ["Yo","Tu","El","Ella","Nosotros","Ustedes"];
  var array2 = ["Negro","Azul","Blanco","Rojo","Verde"];
  var array3 = ["Cielo","Tierra","Agua","Aire","Fuego"];
@@ -48,6 +49,7 @@ console.log("Arreglo 5,5: "+array5[5]);
   
  
  // Exercise5
+ console.log("------ Ejercicio 5 ------");
 console.log("El residuo de 1500001 entre 5 es: "+50001%5);
 console.log("El residuo de 492290833 entre 66 es: "+492290833%66);
 console.log("El residuo de 3937005 entre 4 es: "+3937005%4);
