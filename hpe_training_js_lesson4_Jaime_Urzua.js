@@ -46,3 +46,20 @@ while (j < 3) {
 
  // Exercise5
 console.log("------ Ejercicio 5 ------");
+var califica = function(num) {
+	if (num <= 59)
+		console.log("Mala calificacion. REPROBASTE!!");
+	else if (num >= 60 && num < 70)
+		console.log("Apenitas. PANZASTE!!");
+	else if (num >= 70 && num < 80)
+		console.log("Bueno. NO ESTA MAL!!");
+	else if (num >= 80 && num < 90)
+		console.log("Muy buena calificación. TU MUY BIEN!!");
+	else if (num >= 90 && num < 99)
+		console.log("WWooww!!. EXCELENTE!!");
+	else if (num < 101)
+		console.log("WWooww!!. ÑOÑAZO!!");
+	else
+		console.log("Esa calificacion no existe. NO INVENTES!!");
+}
+califica(prompt('Dame una calificación del 1 al 100: ',''));
